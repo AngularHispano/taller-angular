@@ -1,0 +1,26 @@
+{
+  "name": "taller-angular",
+  "version": "1.0.0",
+  "description": "Taller de Introducción a AngularJS 1.x",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "karma start"
+  },
+  "author": "Pablo Villoslada Puigcerber <pablo85@gmail.com> (http://pablovilloslada.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "sequelize": "^3.17.1",
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-ng-html2js-preprocessor": "^0.2.0"
+  }
+}
